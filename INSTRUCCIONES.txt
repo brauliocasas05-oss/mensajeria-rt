@@ -1,0 +1,33 @@
+MENSAJERÍA MX - VERSIÓN FINAL
+
+1) SUPABASE
+- Authentication -> Sign In / Providers -> Allow anonymous sign-ins = ON.
+- SQL Editor -> ejecuta TODO: supabase_mensajeria_imagenes.sql
+
+2) GITHUB PAGES
+Sube/reemplaza:
+- index.html
+- manifest.json
+- sw.js
+No necesitas subir el SQL.
+
+3) PC
+Opción rápida: abre la misma URL en Chrome.
+Opción tipo programa: ejecuta Abrir_Mensajeria_MX.bat.
+
+4) IPHONE
+- Abre Safari.
+- Ve a: https://brauliocasas05-oss.github.io/FlappyBirdMX3/
+- Compartir -> Añadir a pantalla de inicio.
+
+5) IMÁGENES
+- PC: botón 📷 -> selecciona imagen.
+- iPhone: botón 📷 -> selecciona/toma una imagen.
+- Límite: 10 MB.
+
+6) BORRAR TODO
+El botón BORRAR TODO elimina todos los mensajes del chat para todos los dispositivos.
+Se pide confirmación.
+
+Nota: limpiar la conversación borra los registros de mensajes. Los archivos originales
+pueden permanecer en Storage; se pueden borrar después con una limpieza del bucket.
